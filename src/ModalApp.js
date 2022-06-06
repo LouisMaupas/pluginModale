@@ -18,7 +18,7 @@ function ModalApp({ buttonStyle, modalMessage, buttonText }) {
           setDisplay(true);
         }}
       >
-        Mettre le texte du bouton ici
+        {buttonText}
       </button>
     </>
   );

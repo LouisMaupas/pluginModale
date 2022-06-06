@@ -7,9 +7,9 @@ function App() {
       {/* On a un seul composant pour le bouton et la modal.
     Et ce bouton prends en props tous les paramètres utiles pour afficher et configurer la modal et ce bouton */}
       <ModalApp
-        buttonStyle="Le css doit passer par les props"
-        buttonText="Ouvrir modale"
-        modalMessage="ceci est un test"
+        buttonStyle="CSS du bouton"
+        buttonText="Texte du bouton"
+        modalMessage="Texte du modal"
       />
     </>
   );
