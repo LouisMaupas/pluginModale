@@ -1,5 +1,5 @@
 import React from "react";
-import ModalApp from "./ModalApp";
+import ModalApp from "./ModalComponent";
 
 function App() {
   return (
