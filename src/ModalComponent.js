@@ -42,7 +42,6 @@ const Text = styled.div`
 `;
 
 const Modal = (props) => {
-  console.log(props);
   const { display, setDisplayTo, message } = props;
   return (
     <>
