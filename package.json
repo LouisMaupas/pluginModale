@@ -1,5 +1,8 @@
 {
   "name": "modal-react-lm",
+  "author": "Louis Maupas",
+  "description": "A React component modal",
+  "license": "MIT",
   "version": "0.1.1",
   "private": false,
   "dependencies": {
@@ -17,6 +20,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LouisMaupas/pluginModale"
   },
   "eslintConfig": {
     "extends": [
