@@ -3,7 +3,7 @@
   "author": "Louis Maupas",
   "description": "A React component modal",
   "license": "MIT",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "main": "dist/Modal.js",
   "module": "dist/Modal.js",
