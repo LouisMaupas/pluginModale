@@ -5,8 +5,8 @@
   "license": "MIT",
   "version": "0.1.3",
   "private": false,
-  "main": "dist/Modal.js",
-  "module": "dist/Modal.js",
+  "main": "src/App.js",
+  "module": "src/App.js",
   "files": [
     "dist"
   ],
