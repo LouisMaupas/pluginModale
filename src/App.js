@@ -7,6 +7,7 @@ function App() {
       buttonStyle="CSS du bouton"
       buttonText="Texte du bouton"
       modalMessage="Texte du modal"
+      openModal={true}
     />
   );
 }

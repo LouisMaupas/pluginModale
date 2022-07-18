@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ModalComponent from "./ModalComponent";
 
-function ModalApp({ buttonStyle, modalMessage, buttonText }) {
+function ModalApp({ buttonStyle, modalMessage, buttonText, openModal }) {
   const [display, setDisplay] = useState(false);
   return (
     <>
@@ -15,7 +15,7 @@ function ModalApp({ buttonStyle, modalMessage, buttonText }) {
       <button
         className={buttonStyle}
         onClick={() => {
-          setDisplay(true);
+          setDisplay(openModal);
         }}
       >
         {buttonText}
