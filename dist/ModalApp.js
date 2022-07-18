@@ -32,13 +32,16 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 function ModalApp(_ref) {
   var buttonStyle = _ref.buttonStyle,
       modalMessage = _ref.modalMessage,
-      buttonText = _ref.buttonText;
+      buttonText = _ref.buttonText,
+      openModal = _ref.openModal;
 
   var _useState = (0, _react.useState)(false),
       _useState2 = _slicedToArray(_useState, 2),
       display = _useState2[0],
-      setDisplay = _useState2[1];
+      setDisplay = _useState2[1]; // Pour trigger la modal sans passer par le bouton
 
+
+  (0, _react.useState)(openModal);
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_ModalComponent.default, {
     message: modalMessage,
     display: display,
@@ -46,7 +49,7 @@ function ModalApp(_ref) {
   }), /*#__PURE__*/_react.default.createElement("button", {
     className: buttonStyle,
     onClick: function onClick() {
-      setDisplay(true);
+      setDisplay(openModal);
     }
   }, buttonText));
 }

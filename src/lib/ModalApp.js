@@ -3,6 +3,8 @@ import ModalComponent from "./ModalComponent";
 
 function ModalApp({ buttonStyle, modalMessage, buttonText, openModal }) {
   const [display, setDisplay] = useState(false);
+  // Pour trigger la modal sans passer par le bouton
+  useState(openModal);
   return (
     <>
       {/* La modale modifie son état par l'intérmédiaire du state setDisplay de ModalApp */}
